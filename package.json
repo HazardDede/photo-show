@@ -9,7 +9,7 @@
     "start": "npm run dev",
     "build": "node build/build.js",
     "docker": "docker build -t photo-show .",
-    "docker-arm": "docker build -t photo-show -f Dockerfile.arm."
+    "docker-arm": "docker build -t photo-show -f Dockerfile.arm ."
   },
   "dependencies": {
     "axios": "^0.18.0",
