@@ -4,14 +4,14 @@
     :images="fluxImages"
     :transitions="fluxTransitions"
     ref="slider">
-        <flux-pagination slot="pagination"></flux-pagination>
+        <!--<flux-pagination slot="pagination"></flux-pagination>
         <flux-controls slot="controls"></flux-controls>
-        <flux-index slot="index"></flux-index>
+        <flux-index slot="index"></flux-index>-->
     </vue-flux>
 </template>
 
 <script>
-import { VueFlux, FluxControls, FluxIndex, Transitions } from 'vue-flux';
+import { VueFlux, FluxControls, FluxIndex, FluxPagination, Transitions } from 'vue-flux';
 import axios from 'axios';
 
 function getPhotos(comp) {
@@ -39,7 +39,8 @@ export default {
     components: {
         VueFlux,
         FluxControls,
-        FluxIndex
+        FluxIndex,
+        FluxPagination
     },
     created: function () {
         getPhotos(this);
