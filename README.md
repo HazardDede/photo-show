@@ -14,7 +14,7 @@ npm run docker
 docker run --name photo-show \
     -it \
     --rm \
-    -v /Users/dmuth/photo:/photos \
+    -v /Users/dmuth/Fotos/test:/photos \
     -p 8080:80 \
     photo-show
 

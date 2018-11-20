@@ -50,7 +50,10 @@ export default {
         fluxOptions: {
             autoplay: true,
             height: 'auto',
-            infinite: true
+            infinite: true,
+            enableGestures: true,
+            delay: 20000,
+            fullscreen: true
         },
         fluxImages: [ "/resource/loading.gif", "/resource/loading.gif"],  // One single image isn't shown...
         fluxTransitions: {
