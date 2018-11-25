@@ -4,9 +4,9 @@
     :images="fluxImages"
     :transitions="fluxTransitions"
     ref="slider">
-        <!--<flux-pagination slot="pagination"></flux-pagination>
+        <!--<flux-pagination slot="pagination"></flux-pagination>-->
         <flux-controls slot="controls"></flux-controls>
-        <flux-index slot="index"></flux-index>-->
+        <flux-index slot="index"></flux-index>
     </vue-flux>
 </template>
 
@@ -52,7 +52,7 @@ export default {
             height: 'auto',
             infinite: true,
             enableGestures: true,
-            delay: 20000,
+            delay: 10000,
             fullscreen: true
         },
         fluxImages: [ "/resource/loading.gif", "/resource/loading.gif"],  // One single image isn't shown...
