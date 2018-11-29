@@ -16,7 +16,7 @@
     "cors": "^2.8.4",
     "jquery": "^3.3.1",
     "vue": "^2.5.2",
-    "vue-flux": "^5.1.7"
+    "vue-flux": "^5.1.8"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
