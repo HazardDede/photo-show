@@ -2,3 +2,10 @@ dist
 node_modules
 photo
 npm-debug.log
+
+Dockerfile
+Dockerfile.arm
+.dockerignore
+.editorconfig
+.git
+.gitignore
